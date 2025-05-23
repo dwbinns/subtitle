@@ -25,9 +25,15 @@ cp example-config.json data/example/config.json
 npm start
 ```
 
-[http://localhost:8728/example/#token=controller]
+The presenter opens:
 
-(NB: the final slash is required)
+http://localhost:8728/example/#token=controller
+
+Participants follow the QR code to:
+
+http://localhost:8728/example/
+
+The presenter taps the third (circular) button at the top left, and then taps paragraphs on their device to scroll the participants devices to show the current paragraph.
 
 # Deployment
 
