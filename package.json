@@ -1,0 +1,20 @@
+{
+  "name": "subtitle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "webpack --watch & PID=$!; node server/index.js;kill $PID",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "auto-creating-map": "^2.1.0",
+    "deepl-node": "^1.10.2",
+    "fs-serve": "^3.2.0",
+    "qrcode": "^1.5.3",
+    "ui-io": "^1.4.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "ws": "^8.14.2"
+  }
+}
